@@ -1,0 +1,51 @@
+# Week 8 – Checking Project Direction
+
+## Purpose of This AI Interaction
+I used AI to check whether my project idea matched the assignment requirements before I started building the notebook. 
+I was thinking of creating a simple app called Budget Buddy, which analyses a transaction CSV file and gives budgeting advice. Before coding, I wanted to make sure this idea could cover the required components: Chat, RAG, Agent Tool, Gradio UI, and testing. 
+I also asked AI about evaluating if my CSV file suits my project. 
+
+---
+
+## My Prompts
+
+1. "I have attached the assignment specification. I am thinking of building a simple Budget Buddy app that analyses a transaction CSV. Can you help me check whether this idea matches the main requirements, especially Chat, RAG, Agent Tool, Gradio UI, and testing?"
+
+2. "I have attached my sample transaction CSV for a personal spending analyser. Can you review the CSV structure and tell me if the columns are suitable for a beginner finance app? The app should calculate total spending, spending by category, the highest spending category, and basic budgeting advice. Please also help me write a clear Inputs and Outputs section before I start coding?"
+
+---
+
+## AI Response Summaries
+
+**Prompt 1:**  
+Budget Buddy is a suitable project idea for the assignment. It matches the required Smart Finance Assistant theme because it can analyse a transaction CSV, summarise spending, and give budgeting advice.  
+
+To meet the main requirements, the app should include:  
+
+| Requirement | What Budget Buddy should do |
+|------------|-----------------------------|
+| Chat       | Have a friendly finance chatbot that gives spending advice. |
+| RAG        | Use the uploaded CSV as the data source, so the chatbot can answer questions based on the user’s transactions. |
+| Agent Tool | Include one custom function, such as a budget checker or savings goal calculator. |
+| Gradio UI  | Create a simple interface with CSV upload, chatbot, summary button, and output area. |
+| Testing    | Add a testing section with checks for totals, category spending, missing columns, empty CSV, and invalid amounts. |
+
+**Prompt 2:**  
+The sample CSV is suitable for a beginner Budget Buddy app. It has four useful columns:
+
+| Column      | Purpose |
+|------------|---------|
+| Date       | Shows when each transaction happened |
+| Description| Describes what the spending was for |
+| Category   | Groups spending, such as Food, Bills, Shopping |
+| Amount     | Shows how much money was spent |
+
+With these columns, the app can calculate:
+
+- Total spending  
+- Spending by category  
+- Highest spending category  
+- Basic budgeting advice  
+
+Example summary text:  
+> The CSV file contains transaction data with Date, Description, Category, and Amount columns. These columns are suitable for a beginner finance app because they allow the app to calculate total spending, group spending by category, identify the highest spending category, and provide simple budgeting advice.
