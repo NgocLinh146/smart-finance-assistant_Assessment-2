@@ -109,7 +109,7 @@ Evidence for this part is stored in the `AI-CONVERSATIONS/` folder. The relevant
 - `AI-CONVERSATIONS/week 10_17.png`
 
 **Context:**  
-I asked AI to create the `analyze_spending_patterns(df, monthly_budget)` function based on my pseudocode. This section focused on calculating total expenses, total refunds, net spending, spending by category, highest spending category, top categories, large transactions, and budget status.
+I asked AI to help complete the spending pattern analysis section based on my pseudocode and the incomplete starter notebook code. This section focused on calculating total expenses, total refunds, net spending, spending by category, highest spending category, top categories, large transactions, and budget status.
 
 ---
 
@@ -125,7 +125,7 @@ Evidence for this part is stored in the `AI-CONVERSATIONS/` folder. The relevant
 - `AI-CONVERSATIONS/week 10_24.png`
 
 **Context:**  
-I used AI to complete the financial recommendations section from the starter notebook. I asked AI to create a function that used the analysis dictionary from `analyze_spending_patterns()` and turned the results into a clear, business-friendly report for the user.
+I used AI to complete the financial recommendations section for my Budget Buddy project. I asked AI to create a function that used the spending analysis results and turned them into a clear, business-friendly report for the user.
 
 ---
 
