@@ -35,7 +35,7 @@ A basic Gradio UI connects the spending summary, chatbot, RAG advice, and saving
 ## 📁 Project Files
 
 The repository includes:
-- `Finance_Buddy_Starter_notebook.ipynb` – main project notebook
+- `Budget_Buddy_Notebook.ipynb` – main project notebook
 - `sample_transactions.csv` – sample transaction data
 - `README.md` – project overview and instructions
 - AI conversation screenshots or notes for evidence of AI collaboration
